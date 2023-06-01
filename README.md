@@ -160,7 +160,7 @@ Vamos criar a visualização da lista de produtos em **product-list.components.h
   </section>
 </div>
 ```
-![Passo #4](https://raw.githubusercontent.com/gtnasser/angular.shoppinglist/main/step3.png)
+![Passo #4](https://raw.githubusercontent.com/gtnasser/angular.shoppinglist/main/step4.png)
 
 ## 5. Barra de pesquisa
 

@@ -6,6 +6,18 @@ Vamos criar uma aplicação com um componente que recebe uma lista de produtos, 
 
 Este projeto pode ser clonado de [github.com/gtnasser/angular.shoppinglist](https://github.com/gtnasser/angular.shoppinglist) ou executado em [*****]().
 
+Para executar esta aplicação,  abra o terminal e execute:
+```shell
+# clone a pasta do projeto
+git clone github.com/gtnasser/angular.shoppinglist
+# entre na pasta do projeto:
+cd angular.shoppinglist
+# instale as dependências
+npm -install
+# execute a aplicação
+ng serve --open
+``` 
+
 
 ## 0. Pré-requisitos
 
@@ -86,7 +98,7 @@ opacity: 0.8;
 margin-top: 70px;
 }
 ```
-![Passo #2](https://raw.githubusercontent.com/gtnasser/angular.shoppinglist/main/step2.png)
+![Passo #2](https://raw.githubusercontent.com/gtnasser/angular.shoppinglist/main/docs/step2.png)
 
 ## 3. Itens da lista de compras
 
@@ -160,7 +172,7 @@ Vamos criar a visualização da lista de produtos em **product-list.components.h
   </section>
 </div>
 ```
-![Passo #4](https://raw.githubusercontent.com/gtnasser/angular.shoppinglist/main/step4.png)
+![Passo #4](https://raw.githubusercontent.com/gtnasser/angular.shoppinglist/main/docs/step4.png)
 
 ## 5. Barra de pesquisa
 
@@ -190,7 +202,7 @@ Incluir as rotinas de pesquisa e limpeza do campo de pesquisa em **product-list.
     this.searchProducts('')
   }
 ```
-![Passo #5](https://raw.githubusercontent.com/gtnasser/angular.shoppinglist/main/step5.png)
+![Passo #5](https://raw.githubusercontent.com/gtnasser/angular.shoppinglist/main/docs/step5.png)
 
 ## 6. Produtos selecionados
 
@@ -243,4 +255,5 @@ Vamos iniciar o objeto filho já executando uma pesquisa, retornando a lista com
     this.searchProducts('')
   }
 ```
-![Passo #6](https://raw.githubusercontent.com/gtnasser/angular.shoppinglist/main/step6.png)
+![Passo #6](https://raw.githubusercontent.com/gtnasser/angular.shoppinglist/main/docs/step6.png)
+

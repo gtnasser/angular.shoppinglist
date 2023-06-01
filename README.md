@@ -4,7 +4,7 @@ Este tutorial é para criar uma aplicação para visualizar e pesquisar em uma L
 É um projeto simples desenvolvido por mim, usando apenas Angular, com o objetivo de mostrar a troca de dados entre componentes, explorando os conceitos de **property binding** e **event binding**.
 Vamos criar uma aplicação com um componente que recebe uma lista de produtos, exibe essa lista, pode pesquisar produtos nesta lista, e retorna o resultado a cada execução da pesquisa para que seja exibido pela aplicação.
 
-Este projeto pode ser clonado de [github.com/gtnasser/angular.shoppinglist](https://github/gtnasser/angular.shoppinglist) ou executado em [*****]().
+Este projeto pode ser clonado de [github.com/gtnasser/angular.shoppinglist](https://github/gtnasser/angular.shoppinglist/tree/main) ou executado em [*****]().
 
 
 ## 0. Pré-requisitos

@@ -1,0 +1,12 @@
+<div>
+  <p class="searchbar">
+    <label for="product-search">Buscar produtos:</label><br>
+    <input id="product-search" #search placeholder="Digite parte do nome do produto">
+    <button (click)="searchProducts(search.value)">Buscar</button>
+    <button (click)="searchClear(search)">Ver todos</button>
+  </p>
+  Lista de Compras:
+  <ul>
+    <li *ngFor="let product of productList">{{product.name}} ({{product.quantity}} {{ product.unit}} x ${{ product.price | number: '1.2-2' }})</li>
+  </ul>
+</div>

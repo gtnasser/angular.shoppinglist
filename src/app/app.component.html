@@ -1,0 +1,15 @@
+<!-- Toolbar -->
+<div class="toolbar">
+  <img id="logo" src="../assets/fa-cart.svg" alt="logo">
+  <span>SHOPPING LIST</span>
+  <a target="_blank" rel="noopener" href="https://github.com/gtnasser" title="Github">
+    <img id="avatar" src="../assets/me.png" alt="Me"/>
+  </a>
+</div>
+
+<div class="content">
+  <app-product-list [products]="productList"
+    (onSearch)="updateSelected($event)"></app-product-list>
+  <span>Total selecionado: {{ totalQty }} itens, ${{ totalAmount | number: '1.2-2' }} </span>
+</div>
+

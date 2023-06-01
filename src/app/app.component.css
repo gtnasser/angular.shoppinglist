@@ -1,0 +1,45 @@
+
+:host {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, Verdana;
+    font-size: 14px;
+}
+
+/* toolbar */
+
+.toolbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #1976d2;
+    color: white;
+    font-weight: 600;
+}
+
+.toolbar > #logo {
+    margin: 0 10px;
+    height: 24px;
+}
+
+.toolbar > a {
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.toolbar > a > #avatar {
+    height: 36px;
+}
+
+.toolbar > #me img:hover {
+    opacity: 0.8;
+}
+
+/* content */
+
+.content {
+    margin-top: 70px;
+}
+
